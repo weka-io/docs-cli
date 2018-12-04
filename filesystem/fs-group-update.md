@@ -1,23 +1,25 @@
 ```
 Usage:
-fs group update-tiered <name>
-                       <storage>
-                       <new-name>
-                       [--target-ssd-retention target-ssd-retention]
-                       [--start-demote start-demote]
-                       [--HOST HOST]
-                       [--PORT PORT]
-                       [--json]
-                       [--NO-HUMAN]
+fs group update <name>
+                [--new-name new-name]
+                [--is-tiered is-tiered]
+                [--storage storage]
+                [--target-ssd-retention target-ssd-retention]
+                [--start-demote start-demote]
+                [--HOST HOST]
+                [--PORT PORT]
+                [--json]
+                [--NO-HUMAN]
 
 Description:
     Update a filesystem group
 
 Arguments:
-   name       The filesystem group name to be created
-   storage    Name of the Object Storage linked with the group
-   new-name   Updated name of the fspecified ilesystem group
+   name   The filesystem group name to be created
 Options:
+   --new-name               Updated name of the fspecified ilesystem group
+   --is-tiered              Is the filesystem-group tiered (yes/no)
+   --storage                Name of the Object Storage linked with the group
    --target-ssd-retention   Period of time to keep an SSD copy of the data
    --start-demote           Period of time to wait before copying data to the Object Storage
    -H, --HOST               Specify the host. Alternatively, use the WEKA_HOST env variable

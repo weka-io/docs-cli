@@ -6,12 +6,9 @@ Description:
     List filesystem groups
 
 Subcommands:
-   create          Create a filesystem group (non-tiered)
-   create-tiered   Create a tiered filesystem group
-   rename          Rename a filesystem group
-   untier          Set a filesystem group as an untiered fs-group
-   update-tiered   Update a filesystem group
-   delete          Delete a filesystem group
+   create   Create a filesystem group
+   update   Update a filesystem group
+   delete   Delete a filesystem group
 
 Options:
    -H, --HOST       Specify the host. Alternatively, use the WEKA_HOST env variable
