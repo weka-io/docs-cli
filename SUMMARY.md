@@ -14,7 +14,6 @@
 
 ## Cluster
 
-* [Cluster Commands](cluster/cluster.md)
 * [Create Cluster](cluster/cluster-create.md)
 * [Set Cluster Parameters](cluster/cluster-update.md)
 * [List Nodes](cluster/cluster-nodes.md)
@@ -87,12 +86,8 @@
 
 ## NFS
 
-* [NFS Commands](nfs/nfs.md)
-* [NFS Rules Commands](nfs/nfs-rules.md)
-* [NFS Rules Adding](nfs/nfs-rules-add.md)
 * [Adding DNS Rule](nfs/nfs-rules-add-dns.md)
 * [Adding IP Rule](nfs/nfs-rules-add-ip.md)
-* [NFS Rules Deleting](nfs/nfs-rules-delete.md)
 * [Delete DNS Rule](nfs/nfs-rules-delete-dns.md)
 * [Delete IP Rule](nfs/nfs-rules-delete-ip.md)
 * [List NFS Client Groups](nfs/nfs-client-group.md)
@@ -109,16 +104,13 @@
 * [Create Interface Group](nfs/nfs-interface-group-add.md)
 * [Update Interface Group](nfs/nfs-interface-group-update.md)
 * [Delete Interface Group](nfs/nfs-interface-group-delete.md)
-* [IP Range Commands](nfs/nfs-interface-group-ip-range.md)
 * [Add IP Range](nfs/nfs-interface-group-ip-range-add.md)
 * [Delete IP Range](nfs/nfs-interface-group-ip-range-delete.md)
-* [NFS Interface Group Port Commands](nfs/nfs-interface-group-port.md)
 * [Add Port To Interface Group](nfs/nfs-interface-group-port-add.md)
 * [Remove Port From Interface Group](nfs/nfs-interface-group-port-delete.md)
 
 ## SMB
 
-* [SMB Commands](smb/smb.md)
 * [Show SMB Status](smb/smb-cluster.md)
 * [Create SMB Cluster](smb/smb-cluster-create.md)
 * [Destroy SMB Cluster](smb/smb-cluster-destroy.md)
@@ -140,12 +132,10 @@
 ## Events
 
 * [Start Agent Daemon](events/--agent.md)
-* [Cloud Commands](events/cloud.md)
 * [Cloud Status](events/cloud-status.md)
 * [Enable Cloud](events/cloud-enable.md)
 * [Disable Cloud](events/cloud-disable.md)
 * [Update Cloud Settings](events/cloud-update.md)
-* [Cloud Credentials Commands](events/cloud-creds.md)
 * [Refresh Cloud Credentials](events/cloud-creds-refresh.md)
 * [Get Cloud Upload Rate](events/cloud-upload-rate.md)
 * [Set Cloud Upload Rate](events/cloud-upload-rate-set.md)
@@ -163,7 +153,6 @@
 
 ## Diags
 
-* [Diagnostics Commands](diags/diags.md)
 * [Collect Diagnostics](diags/diags---collect.md)
 * [Upload Diagnostics](diags/diags---upload.md)
 
@@ -190,14 +179,12 @@
 
 ## Local
 
-* [Agent Commands](local/agent.md)
 * [Install Agent](local/agent-install-agent.md)
 * [Install Agent](local/local-install-agent.md)
 * [Update Containers Format](local/agent-update-containers.md)
 * [List Supported Specs](local/agent-supported-specs.md)
 * [Cleanup Images](local/agent-cleanup-images.md)
 * [Uninstall Agent](local/agent-uninstall.md)
-* [Local Commands](local/local.md)
 * [List Containers](local/local-ps.md)
 * [Setup Container](local/local-setup.md)
 * [Delete Container](local/local-rm.md)
