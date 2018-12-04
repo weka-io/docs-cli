@@ -1,0 +1,18 @@
+```
+Usage:
+cluster drive add <host-id> <device-path> [--HOST HOST] [--PORT PORT] [--force] [--json] [--NO-HUMAN]
+
+Description:
+    Add the given drive
+
+Arguments:
+   host-id       The host the drive attached to (given by ids)
+   device-path   The device path
+Options:
+   -H, --HOST       Specify the host. Alternatively, use the WEKA_HOST env variable
+   -P, --PORT       Specify the port. Alternatively, use the WEKA_PORT env variable
+   --force          
+   -J, --json       Format output as JSON
+   -N, --NO-HUMAN   Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB
+                    2GiB.
+```

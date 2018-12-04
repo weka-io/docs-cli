@@ -1,0 +1,26 @@
+```
+Usage:
+cluster license payg <plan-id>
+                     <secret-key>
+                     [--bucket-name bucket-name]
+                     [--region region]
+                     [--HOST HOST]
+                     [--PORT PORT]
+                     [--json]
+                     [--NO-HUMAN]
+
+Description:
+    Enable pay-as-you-go for the cluster
+
+Arguments:
+   plan-id      
+   secret-key   
+Options:
+   --bucket-name    The name of the bucket to use
+   --region         The region to use
+   -H, --HOST       Specify the host. Alternatively, use the WEKA_HOST env variable
+   -P, --PORT       Specify the port. Alternatively, use the WEKA_PORT env variable
+   -J, --json       Format output as JSON
+   -N, --NO-HUMAN   Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB
+                    2GiB.
+```

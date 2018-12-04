@@ -1,0 +1,23 @@
+```
+Usage:
+fs snapshot [--file-system file-system] [--name name] [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN]
+
+Description:
+    List snapshots
+
+Subcommands:
+   create   Create a snapshot
+   copy     Copy one snapshot over another
+   update   Update snapshot parameters
+   upload   Upload a snapshot to object store
+   delete   Delete a snapshot
+
+Options:
+   --file-system    Filesystem name
+   --name           Snapshot name
+   -H, --HOST       Specify the host. Alternatively, use the WEKA_HOST env variable
+   -P, --PORT       Specify the port. Alternatively, use the WEKA_PORT env variable
+   -J, --json       Format output as JSON
+   -N, --NO-HUMAN   Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB
+                    2GiB.
+```
