@@ -14,7 +14,6 @@ events [--num-results num-results]
        [--show-internal]
        [--server-timezone]
        [--json]
-       [--trust-ssl-certs]
 
 Description:
     List all events that conform to the filter criteria
@@ -42,5 +41,4 @@ Options:
    --show-internal      Show internal events
    --server-timezone    Use the server's timezone instead of the local one
    -J, --json           Format output as JSON
-   --trust-ssl-certs    Blindly trust installed SSL certificates bundle (without validating its integrity)
 ```

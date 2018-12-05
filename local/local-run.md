@@ -1,6 +1,6 @@
 ```
 Usage:
-local run [--container container] [--in in] [--environment environment]... [<command>]...
+local run [--container container] [--in in] [--environment environment]... [--without-agent] [<command>]...
 
 Description:
     Execute a command inside a new container that has the same mounts as the given container. If no container is
@@ -11,4 +11,5 @@ Options:
    -C, --container     The container to run in
    --in                The container version to run the command in
    -e, --environment   Environemnt variable to add
+   --without-agent     Assume that the agent isn't running and run the container without it
 ```
