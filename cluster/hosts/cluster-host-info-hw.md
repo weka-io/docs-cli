@@ -12,6 +12,6 @@ Show hardware information about one or more hosts
 | --------- | ----------- |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `--info-type` | Specify which HW info to retrieve, can be version|osinfo|memory|cores|disks|eths|net|IPs |
+| `--info-type` | Specify which HW info to retrieve, can be version&#124;osinfo&#124;memory&#124;cores&#124;disks&#124;eths&#124;net&#124;IPs |
 | `-J, --json` | Format output as JSON |
 | `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
