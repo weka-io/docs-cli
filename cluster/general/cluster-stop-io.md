@@ -1,12 +1,15 @@
-```
-Usage:
-cluster stop-io [--HOST HOST] [--PORT PORT] [--force]
+# Synopsis
 
-Description:
-    Stop IO services
+```weka cluster stop-io [--HOST HOST] [--PORT PORT] [--force]```
 
-Options:
-   -H, --HOST   Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT   Specify the port. Alternatively, use the WEKA_PORT env variable
-   --force      Force the wekafs to stop
-```
+# Description
+
+Stop IO services
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `--force` | Force the wekafs to stop |

@@ -1,8 +1,7 @@
-```
-Usage:
-agent cleanup-images 
+# Synopsis
 
-Description:
-    Remove any remaining images that are no longer needed
+```weka agent cleanup-images ```
 
-```
+# Description
+
+Remove any remaining images that are no longer needed

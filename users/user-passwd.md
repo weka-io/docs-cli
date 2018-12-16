@@ -1,16 +1,17 @@
-```
-Usage:
-user passwd <username> <password> [--HOST HOST] [--PORT PORT] [--json]
+# Synopsis
 
-Description:
-    Set a user's password. If the currently logged-in user is an admin, it can change the password for all other users
-    in the Weka cluster.
+```weka user passwd <username> <password> [--HOST HOST] [--PORT PORT] [--json]```
 
-Arguments:
-   username   User's name
-   password   User's password
-Options:
-   -H, --HOST   Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT   Specify the port. Alternatively, use the WEKA_PORT env variable
-   -J, --json   Format output as JSON
-```
+# Description
+
+Set a user's password. If the currently logged-in user is an admin, it can change the password for all other users in the Weka cluster.
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `username` | User's name |
+| `password` | User's password |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |

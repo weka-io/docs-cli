@@ -1,8 +1,7 @@
-```
-Usage:
-agent supported-specs 
+# Synopsis
 
-Description:
-    List the Weka spec versions that are supported by this agent version
+```weka agent supported-specs ```
 
-```
+# Description
+
+List the Weka spec versions that are supported by this agent version

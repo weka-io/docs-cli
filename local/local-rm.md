@@ -1,10 +1,13 @@
-```
-Usage:
-local rm [--all] [<containers>]...
+# Synopsis
 
-Description:
-    Delete a Weka container from the machine this command is executed from (without removing it's images)
+```weka local rm [--all] [<containers>]...```
 
-Options:
-   --all   Remove all containers
-```
+# Description
+
+Delete a Weka container from the machine this command is executed from (without removing it's images)
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `--all` | Remove all containers |

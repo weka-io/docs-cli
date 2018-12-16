@@ -1,10 +1,13 @@
-```
-Usage:
-local install-agent [--no-update]
+# Synopsis
 
-Description:
-    Installs WekaIO agent on the machine the command is executed from
+```weka local install-agent [--no-update]```
 
-Options:
-   --no-update   Don't update the locally installed containers
-```
+# Description
+
+Installs WekaIO agent on the machine the command is executed from
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `--no-update` | Don't update the locally installed containers |

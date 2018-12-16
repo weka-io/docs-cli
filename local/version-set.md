@@ -1,11 +1,13 @@
-```
-Usage:
-version set <version>
+# Synopsis
 
-Description:
-    Set the current version. Containers must be stopped before setting the current version and the new version must
-    have already been downloaded.
+```weka version set <version>```
 
-Arguments:
-   version   The version name to use
-```
+# Description
+
+Set the current version. Containers must be stopped before setting the current version and the new version must have already been downloaded.
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `version` | The version name to use |

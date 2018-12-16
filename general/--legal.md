@@ -1,8 +1,7 @@
-```
-Usage:
---legal 
+# Synopsis
 
-Description:
-    Prints software license information
+```weka --legal ```
 
-```
+# Description
+
+Prints software license information

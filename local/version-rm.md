@@ -1,8 +1,7 @@
-```
-Usage:
-version rm [<version-name>]...
+# Synopsis
 
-Description:
-    Delete a version from the machine this command is executed from
+```weka version rm [<version-name>]...```
 
-```
+# Description
+
+Delete a version from the machine this command is executed from

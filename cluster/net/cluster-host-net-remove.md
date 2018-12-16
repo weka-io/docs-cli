@@ -1,16 +1,17 @@
-```
-Usage:
-cluster host net remove <name> [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN]
+# Synopsis
 
-Description:
-    Undedicate a networking device in a host.
+```weka cluster host net remove <name> [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN]```
 
-Arguments:
-   name   Net device name, e.g. host0net0
-Options:
-   -H, --HOST       Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT       Specify the port. Alternatively, use the WEKA_PORT env variable
-   -J, --json       Format output as JSON
-   -N, --NO-HUMAN   Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB
-                    2GiB.
-```
+# Description
+
+Undedicate a networking device in a host.
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `name` | Net device name, e.g. host0net0 |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |
+| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |

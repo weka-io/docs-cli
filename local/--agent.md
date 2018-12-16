@@ -1,8 +1,7 @@
-```
-Usage:
---agent 
+# Synopsis
 
-Description:
-    Start the agent service
+```weka --agent ```
 
-```
+# Description
+
+Start the agent service

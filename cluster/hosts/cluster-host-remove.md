@@ -1,16 +1,17 @@
-```
-Usage:
-cluster host remove <host-id> [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN]
+# Synopsis
 
-Description:
-    Remove a host from the cluster
+```weka cluster host remove <host-id> [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN]```
 
-Arguments:
-   host-id   The host ID of the host to be removed
-Options:
-   -H, --HOST       Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT       Specify the port. Alternatively, use the WEKA_PORT env variable
-   -J, --json       Format output as JSON
-   -N, --NO-HUMAN   Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB
-                    2GiB.
-```
+# Description
+
+Remove a host from the cluster
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `host-id` | The host ID of the host to be removed |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |
+| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |

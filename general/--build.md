@@ -1,8 +1,7 @@
-```
-Usage:
---build 
+# Synopsis
 
-Description:
-    Prints the CLI build number
+```weka --build ```
 
-```
+# Description
+
+Prints the CLI build number

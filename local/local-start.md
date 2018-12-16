@@ -1,11 +1,14 @@
-```
-Usage:
-local start [--wait-time wait-time] [--type type]... [<container>]...
+# Synopsis
 
-Description:
-    Start a Weka container
+```weka local start [--wait-time wait-time] [--type type]... [<container>]...```
 
-Options:
-   -w, --wait-time   How much time to allow the container to start (default: 5m)
-   -t, --type        The container types to start
-```
+# Description
+
+Start a Weka container
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `-w, --wait-time` | How much time to allow the container to start (default: 5m) |
+| `-t, --type` | The container types to start |

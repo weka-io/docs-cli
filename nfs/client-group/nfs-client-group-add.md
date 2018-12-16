@@ -1,14 +1,16 @@
-```
-Usage:
-nfs client-group add <name> [--HOST HOST] [--PORT PORT] [--json]
+# Synopsis
 
-Description:
-    Create an NFS client group
+```weka nfs client-group add <name> [--HOST HOST] [--PORT PORT] [--json]```
 
-Arguments:
-   name   Group name
-Options:
-   -H, --HOST   Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT   Specify the port. Alternatively, use the WEKA_PORT env variable
-   -J, --json   Format output as JSON
-```
+# Description
+
+Create an NFS client group
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `name` | Group name |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |

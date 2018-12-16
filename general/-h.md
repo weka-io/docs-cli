@@ -1,8 +1,7 @@
-```
-Usage:
--h 
+# Synopsis
 
-Description:
-    Prints the general weka documentation
+```weka -h ```
 
-```
+# Description
+
+Prints the general weka documentation

@@ -1,8 +1,7 @@
-```
-Usage:
---version 
+# Synopsis
 
-Description:
-    Prints the CLI version and quits
+```weka --version ```
 
-```
+# Description
+
+Prints the CLI version and quits

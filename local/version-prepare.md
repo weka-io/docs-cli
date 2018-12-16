@@ -1,10 +1,13 @@
-```
-Usage:
-version prepare <container> [<version-name>]...
+# Synopsis
 
-Description:
-    Prepare the version for use. This includes things like compiling the version drivers for the local machine.
+```weka version prepare <container> [<version-name>]...```
 
-Arguments:
-   container   The container to prepare
-```
+# Description
+
+Prepare the version for use. This includes things like compiling the version drivers for the local machine.
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `container` | The container to prepare |

@@ -1,10 +1,13 @@
-```
-Usage:
-local ps [--json]
+# Synopsis
 
-Description:
-    List the Weka containers running on the machine this command is executed from
+```weka local ps [--json]```
 
-Options:
-   -J, --json   Format output as JSON
-```
+# Description
+
+List the Weka containers running on the machine this command is executed from
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `-J, --json` | Format output as JSON |

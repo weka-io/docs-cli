@@ -1,17 +1,24 @@
-```
-Usage:
-cluster host factory-reset <guid> [--HOST HOST] [--PORT PORT] [--force] [--json] [--NO-HUMAN] [<hostnames-or-ips>]...
+# Synopsis
 
-Description:
-    Factory resets the hosts. NOTE! this can't be undone!
+```weka cluster host factory-reset <guid>
+                                [--HOST HOST]
+                                [--PORT PORT]
+                                [--force]
+                                [--json]
+                                [--NO-HUMAN]
+                                [<hostnames-or-ips>]...```
 
-Arguments:
-   guid   The cluster GUID
-Options:
-   -H, --HOST       Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT       Specify the port. Alternatively, use the WEKA_PORT env variable
-   --force          When set, broute force reset
-   -J, --json       Format output as JSON
-   -N, --NO-HUMAN   Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB
-                    2GiB.
-```
+# Description
+
+Factory resets the hosts. NOTE! this can't be undone!
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `guid` | The cluster GUID |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `--force` | When set, broute force reset |
+| `-J, --json` | Format output as JSON |
+| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |

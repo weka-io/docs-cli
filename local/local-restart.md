@@ -1,10 +1,13 @@
-```
-Usage:
-local restart [--type type]... [<container>]...
+# Synopsis
 
-Description:
-    Restart a Weka container
+```weka local restart [--type type]... [<container>]...```
 
-Options:
-   -t, --type   The container types to restart
-```
+# Description
+
+Restart a Weka container
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `-t, --type` | The container types to restart |

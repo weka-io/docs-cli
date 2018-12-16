@@ -1,12 +1,15 @@
-```
-Usage:
-status rebuild [--HOST HOST] [--PORT PORT] [--json]
+# Synopsis
 
-Description:
-    Show the cluster phasing in/out progress, and protection per fault-level
+```weka status rebuild [--HOST HOST] [--PORT PORT] [--json]```
 
-Options:
-   -H, --HOST   Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT   Specify the port. Alternatively, use the WEKA_PORT env variable
-   -J, --json   Format output as JSON
-```
+# Description
+
+Show the cluster phasing in/out progress, and protection per fault-level
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |

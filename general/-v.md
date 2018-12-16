@@ -1,8 +1,7 @@
-```
-Usage:
--v 
+# Synopsis
 
-Description:
-    Prints the CLI version and quits
+```weka -v ```
 
-```
+# Description
+
+Prints the CLI version and quits

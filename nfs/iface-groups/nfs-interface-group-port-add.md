@@ -1,16 +1,18 @@
-```
-Usage:
-nfs interface-group port add <name> <host-id> <nfs-port> [--HOST HOST] [--PORT PORT] [--json]
+# Synopsis
 
-Description:
-    Add a host's port to an interface group
+```weka nfs interface-group port add <name> <host-id> <nfs-port> [--HOST HOST] [--PORT PORT] [--json]```
 
-Arguments:
-   name       Interface group name
-   host-id    Host ID on which the port resides
-   nfs-port   Port's device. (e.g. eth1)
-Options:
-   -H, --HOST   Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT   Specify the port. Alternatively, use the WEKA_PORT env variable
-   -J, --json   Format output as JSON
-```
+# Description
+
+Add a host's port to an interface group
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `name` | Interface group name |
+| `host-id` | Host ID on which the port resides |
+| `nfs-port` | Port's device. (e.g. eth1) |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |

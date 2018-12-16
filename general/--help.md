@@ -1,8 +1,7 @@
-```
-Usage:
---help 
+# Synopsis
 
-Description:
-    Prints the general weka documentation
+```weka --help ```
 
-```
+# Description
+
+Prints the general weka documentation

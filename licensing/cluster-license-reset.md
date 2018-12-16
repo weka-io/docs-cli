@@ -1,14 +1,16 @@
-```
-Usage:
-cluster license reset [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN]
+# Synopsis
 
-Description:
-    Removes existing license information, returning the cluster to an unlicensed mode
+```weka cluster license reset [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN]```
 
-Options:
-   -H, --HOST       Specify the host. Alternatively, use the WEKA_HOST env variable
-   -P, --PORT       Specify the port. Alternatively, use the WEKA_PORT env variable
-   -J, --json       Format output as JSON
-   -N, --NO-HUMAN   Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB
-                    2GiB.
-```
+# Description
+
+Removes existing license information, returning the cluster to an unlicensed mode
+
+# Parameters
+
+| Parameter | Description |
+| --------- | ----------- |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |
+| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
