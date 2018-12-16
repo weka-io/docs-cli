@@ -10,4 +10,4 @@ List the Weka containers running on the machine this command is executed from
 
 | Parameter | Description |
 | --------- | ----------- |
-| `-J, --json` | Format output as JSON |
+| <pre>-J, --json</pre> | Format output as JSON |

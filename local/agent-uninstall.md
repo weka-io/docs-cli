@@ -10,4 +10,4 @@ Deletes all Weka files, drivers, shared memory and any other remainder from the 
 
 | Parameter | Description |
 | --------- | ----------- |
-| `--force` | Force the action to actually happen |
+| <pre>--force</pre> | Force the action to actually happen |

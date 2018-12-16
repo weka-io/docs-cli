@@ -10,7 +10,7 @@ Set the cloud upload rate
 
 | Parameter | Description |
 | --------- | ----------- |
-| `--bytes-per-second` | Maximum uploaded bytes per second |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `-J, --json` | Format output as JSON |
+| <pre>--bytes-per-second</pre> | Maximum uploaded bytes per second |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>-J, --json</pre> | Format output as JSON |

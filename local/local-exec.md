@@ -10,5 +10,5 @@ Execute a command inside a currently running container. If not command is specif
 
 | Parameter | Description |
 | --------- | ----------- |
-| `-C, --container` | The container to run in |
-| `-e, --environment` | Environemnt variable to add |
+| <pre>-C, --container</pre> | The container to run in |
+| <pre>-e, --environment</pre> | Environemnt variable to add |

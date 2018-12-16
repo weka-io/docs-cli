@@ -10,5 +10,5 @@ Start a Weka container
 
 | Parameter | Description |
 | --------- | ----------- |
-| `-w, --wait-time` | How much time to allow the container to start (default: 5m) |
-| `-t, --type` | The container types to start |
+| <pre>-w, --wait-time</pre> | How much time to allow the container to start (default: 5m) |
+| <pre>-t, --type</pre> | The container types to start |

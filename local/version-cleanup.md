@@ -10,6 +10,6 @@ Cleans up all traces of the specified version from the host, as though it was ne
 
 | Parameter | Description |
 | --------- | ----------- |
-| `container` | The container to cleanup |
-| `--version-name` | The versions to cleanup |
-| `--force` | Force the action to actually happen |
+| <pre>container</pre> | The container to cleanup |
+| <pre>--version-name</pre> | The versions to cleanup |
+| <pre>--force</pre> | Force the action to actually happen |

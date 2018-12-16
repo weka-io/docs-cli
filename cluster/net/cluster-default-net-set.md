@@ -16,10 +16,10 @@ Set the default data networking configuration
 
 | Parameter | Description |
 | --------- | ----------- |
-| `--range` | IP range in the form of '1.2.3.4-8' |
-| `--gateway` | Default gateway IP |
-| `--netmask-bits` | Subnet mask bits (0..32) |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `-J, --json` | Format output as JSON |
-| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
+| <pre>--range</pre> | IP range in the form of '1.2.3.4-8' |
+| <pre>--gateway</pre> | Default gateway IP |
+| <pre>--netmask-bits</pre> | Subnet mask bits (0..32) |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>-J, --json</pre> | Format output as JSON |
+| <pre>-N, --NO-HUMAN</pre> | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |

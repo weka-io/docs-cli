@@ -10,4 +10,4 @@ Restart a Weka container
 
 | Parameter | Description |
 | --------- | ----------- |
-| `-t, --type` | The container types to restart |
+| <pre>-t, --type</pre> | The container types to restart |

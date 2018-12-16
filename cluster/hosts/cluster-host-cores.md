@@ -18,12 +18,12 @@ Dedicate host's cores to weka
 
 | Parameter | Description |
 | --------- | ----------- |
-| `host-id` | Host ID as shown in `weka cluster host` |
-| `cores` | Number of CPU cores dedicated to weka - If set to 0 - no drive could be added to this host |
-| `--frontend-dedicated-cores` | Number of cores dedicated to weka frontend (out of the total <num-cores>) |
-| `--drives-dedicated-cores` | Number of cores dedicated to weka drives (out of the total <num-cores>) |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `--cores-ids` | Specify the ids of weka dedicated cores. 'cores ids type' param will be set to USER |
-| `-J, --json` | Format output as JSON |
-| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
+| <pre>host-id</pre> | Host ID as shown in `weka cluster host` |
+| <pre>cores</pre> | Number of CPU cores dedicated to weka - If set to 0 - no drive could be added to this host |
+| <pre>--frontend-dedicated-cores</pre> | Number of cores dedicated to weka frontend (out of the total <num-cores>) |
+| <pre>--drives-dedicated-cores</pre> | Number of cores dedicated to weka drives (out of the total <num-cores>) |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>--cores-ids</pre> | Specify the ids of weka dedicated cores. 'cores ids type' param will be set to USER |
+| <pre>-J, --json</pre> | Format output as JSON |
+| <pre>-N, --NO-HUMAN</pre> | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |

@@ -10,8 +10,8 @@ Logs a user into the Weka cluster. If login is successful, the user credentials 
 
 | Parameter | Description |
 | --------- | ----------- |
-| `username` | User's name |
-| `password` | User's password |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `-J, --json` | Format output as JSON |
+| <pre>username</pre> | User's name |
+| <pre>password</pre> | User's password |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>-J, --json</pre> | Format output as JSON |

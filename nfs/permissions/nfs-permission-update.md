@@ -16,10 +16,10 @@ Edit a file system permission
 
 | Parameter | Description |
 | --------- | ----------- |
-| `filesystem` | File system name |
-| `group` | Client group name |
-| `--path` | path [default: /] |
-| `--permission-type` | Permission type, either RO (read only) or RW (read write) |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `-J, --json` | Format output as JSON |
+| <pre>filesystem</pre> | File system name |
+| <pre>group</pre> | Client group name |
+| <pre>--path</pre> | path [default: /] |
+| <pre>--permission-type</pre> | Permission type, either RO (read only) or RW (read write) |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>-J, --json</pre> | Format output as JSON |

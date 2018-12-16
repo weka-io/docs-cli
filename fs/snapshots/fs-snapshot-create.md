@@ -18,12 +18,12 @@ Create a snapshot
 
 | Parameter | Description |
 | --------- | ----------- |
-| `file-system` | Source Filesystem name |
-| `name` | Target Snapshot name |
-| `access-point` | Access point |
-| `--source-snapshot` | Source snapshot |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `--is-writable` | Writable |
-| `-J, --json` | Format output as JSON |
-| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
+| <pre>file-system</pre> | Source Filesystem name |
+| <pre>name</pre> | Target Snapshot name |
+| <pre>access-point</pre> | Access point |
+| <pre>--source-snapshot</pre> | Source snapshot |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>--is-writable</pre> | Writable |
+| <pre>-J, --json</pre> | Format output as JSON |
+| <pre>-N, --NO-HUMAN</pre> | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |

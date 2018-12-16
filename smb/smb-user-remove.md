@@ -10,7 +10,7 @@ Remove a user who can use samba
 
 | Parameter | Description |
 | --------- | ----------- |
-| `user-id` | The id of the user to remove |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `-J, --json` | Format output as JSON |
+| <pre>user-id</pre> | The id of the user to remove |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>-J, --json</pre> | Format output as JSON |

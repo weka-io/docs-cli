@@ -10,10 +10,10 @@ Create an interface group
 
 | Parameter | Description |
 | --------- | ----------- |
-| `name` | Interface group name |
-| `type` | Group type. cli subnet type can be NFS |
-| `--subnet` | subnet mask in the 255.255.0.0 format |
-| `--gateway` | gateway ip |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `-J, --json` | Format output as JSON |
+| <pre>name</pre> | Interface group name |
+| <pre>type</pre> | Group type. cli subnet type can be NFS |
+| <pre>--subnet</pre> | subnet mask in the 255.255.0.0 format |
+| <pre>--gateway</pre> | gateway ip |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>-J, --json</pre> | Format output as JSON |

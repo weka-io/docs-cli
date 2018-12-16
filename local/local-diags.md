@@ -10,7 +10,7 @@ Collect diagnostics from the machine this command was executed from
 
 | Parameter | Description |
 | --------- | ----------- |
-| `--dump-id` | A unique identifier for this dump |
-| `-o, --output` | Path to save generated summary file |
-| `--upload` | Upload dump to the cloud |
-| `--serve` | Serve dump via the agent's http server |
+| <pre>--dump-id</pre> | A unique identifier for this dump |
+| <pre>-o, --output</pre> | Path to save generated summary file |
+| <pre>--upload</pre> | Upload dump to the cloud |
+| <pre>--serve</pre> | Serve dump via the agent's http server |

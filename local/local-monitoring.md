@@ -10,5 +10,5 @@ Turn monitoring on/off for the given containers, or all containers is none are s
 
 | Parameter | Description |
 | --------- | ----------- |
-| `change` | Turn the monitoring on or off |
-| `-t, --type` | The container types to disable |
+| <pre>change</pre> | Turn the monitoring on or off |
+| <pre>-t, --type</pre> | The container types to disable |

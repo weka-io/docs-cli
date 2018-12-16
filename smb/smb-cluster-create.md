@@ -16,10 +16,10 @@ Create a SMB cluster managed by weka
 
 | Parameter | Description |
 | --------- | ----------- |
-| `workgroup` | The workgroup to connect to |
-| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `--samba-hosts` | The hosts that will serve via the SMB protocol (pass weka's host id as a number) |
-| `--smb-ips-pool` | IPs used as floating IPs for samba to server SMB in a HA manner. Then should not be assigned to any host on the network |
-| `--smb-ips-range` | IPs used as floating IPs for samba to server SMB in a HA manner. Then should not be assigned to any host on the network |
-| `-J, --json` | Format output as JSON |
+| <pre>workgroup</pre> | The workgroup to connect to |
+| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| <pre>--samba-hosts</pre> | The hosts that will serve via the SMB protocol (pass weka's host id as a number) |
+| <pre>--smb-ips-pool</pre> | IPs used as floating IPs for samba to server SMB in a HA manner. Then should not be assigned to any host on the network |
+| <pre>--smb-ips-range</pre> | IPs used as floating IPs for samba to server SMB in a HA manner. Then should not be assigned to any host on the network |
+| <pre>-J, --json</pre> | Format output as JSON |
