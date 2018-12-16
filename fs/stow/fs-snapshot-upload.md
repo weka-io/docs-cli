@@ -10,10 +10,10 @@ Upload a snapshot to object store
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>file-system</pre> | Filesystem name |
-| <pre>snapshot</pre> | Snapshot name |
-| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| <pre>--abort</pre> | Abort in-progress upload |
-| <pre>-J, --json</pre> | Format output as JSON |
-| <pre>-N, --NO-HUMAN</pre> | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
+| `file-system` | Filesystem name |
+| `snapshot` | Snapshot name |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `--abort` | Abort in-progress upload |
+| `-J, --json` | Format output as JSON |
+| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |

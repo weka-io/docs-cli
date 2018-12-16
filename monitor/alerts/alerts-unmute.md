@@ -10,7 +10,7 @@ Unmute an alert-type which was previously muted.
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>alert-type</pre> | An alert-type to unmute, use `weka alerts types` to list types |
-| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| <pre>-J, --json</pre> | Format output as JSON |
+| `alert-type` | An alert-type to unmute, use `weka alerts types` to list types |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |

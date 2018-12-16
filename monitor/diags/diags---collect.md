@@ -16,10 +16,10 @@ Collect diags from all cluster hosts to a directory on the host running this com
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>-i, --dump-id</pre> | Optional ID for this dump, if not specified a random ID is generated |
-| <pre>--timeout</pre> | How many seconds to wait when downloading diags from remote servers. 0 means indefinite [default: 600] |
-| <pre>-o, --output</pre> | Path to save generated summary file |
-| <pre>--pack-to</pre> | Pack the collected tars into a single tarball under the given dir-path |
-| <pre>-H, --HOST</pre> | Specify the host. Alternatively, use the WEKA_HOST env variable |
-| <pre>-P, --PORT</pre> | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| <pre>-J, --json</pre> | Format output as JSON |
+| `-i, --dump-id` | Optional ID for this dump, if not specified a random ID is generated |
+| `--timeout` | How many seconds to wait when downloading diags from remote servers. 0 means indefinite [default: 600] |
+| `-o, --output` | Path to save generated summary file |
+| `--pack-to` | Pack the collected tars into a single tarball under the given dir-path |
+| `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
+| `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-J, --json` | Format output as JSON |

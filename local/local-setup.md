@@ -10,9 +10,9 @@ Setup a local weka container
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>type</pre> | The type of the container to create |
-| <pre>--name</pre> | The name to give the container |
-| <pre>--depends-on</pre> | Mark the container as depending on the given containers |
-| <pre>--disable</pre> | Should the container be created as disabled |
-| <pre>--start</pre> | Should the container be started after creation |
-| <pre>--remove-on-boot</pre> | Should the container be removed when this machine is rebooted |
+| `type` | The type of the container to create |
+| `--name` | The name to give the container |
+| `--depends-on` | Mark the container as depending on the given containers |
+| `--disable` | Should the container be created as disabled |
+| `--start` | Should the container be started after creation |
+| `--remove-on-boot` | Should the container be removed when this machine is rebooted |

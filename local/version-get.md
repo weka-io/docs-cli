@@ -10,7 +10,7 @@ Download a Weka version to the machine this command is executed from
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>version</pre> | Version to download |
-| <pre>--from</pre> | Also try downloading from this distribution server (can be given multiple times). Distribution servers are taken from the $WEKA_DIST_SERVERS environment variable and the /etc/wekaio/dist-servers file. |
-| <pre>--set-current</pre> | Set the downloaded version as the current version. Will fail if any containers are currently running. |
-| <pre>--no-progress-bar</pre> | Don't render download progress bar |
+| `version` | Version to download |
+| `--from` | Also try downloading from this distribution server (can be given multiple times). Distribution servers are taken from the $WEKA_DIST_SERVERS environment variable and the /etc/wekaio/dist-servers file. |
+| `--set-current` | Set the downloaded version as the current version. Will fail if any containers are currently running. |
+| `--no-progress-bar` | Don't render download progress bar |

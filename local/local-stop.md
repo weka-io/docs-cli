@@ -10,5 +10,5 @@ Stop a Weka container
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>--reason</pre> | The reason weka was stopped, will be presented to the user during 'weka status' |
-| <pre>-t, --type</pre> | The container types to stop |
+| `--reason` | The reason weka was stopped, will be presented to the user during 'weka status' |
+| `-t, --type` | The container types to stop |

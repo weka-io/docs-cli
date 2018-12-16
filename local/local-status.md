@@ -10,5 +10,5 @@ Show the status of a Weka container
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>-t, --type</pre> | The container types to show |
-| <pre>-J, --json</pre> | Format output as JSON |
+| `-t, --type` | The container types to show |
+| `-J, --json` | Format output as JSON |

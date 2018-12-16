@@ -10,4 +10,4 @@ Prepare the version for use. This includes things like compiling the version dri
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>container</pre> | The container to prepare |
+| `container` | The container to prepare |

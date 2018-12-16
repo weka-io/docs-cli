@@ -10,4 +10,4 @@ Installs WekaIO agent on the machine the command is executed from
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>--no-update</pre> | Don't update the locally installed containers |
+| `--no-update` | Don't update the locally installed containers |

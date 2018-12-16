@@ -10,4 +10,4 @@ Disable containers by not launching them on machine boot. This does not affect t
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>-t, --type</pre> | The container types to disable |
+| `-t, --type` | The container types to disable |

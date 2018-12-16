@@ -10,7 +10,7 @@ Execute a command inside a new container that has the same mounts as the given c
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>-C, --container</pre> | The container to run in |
-| <pre>--in</pre> | The container version to run the command in |
-| <pre>-e, --environment</pre> | Environemnt variable to add |
-| <pre>--without-agent</pre> | Assume that the agent isn't running and run the container without it |
+| `-C, --container` | The container to run in |
+| `--in` | The container version to run the command in |
+| `-e, --environment` | Environemnt variable to add |
+| `--without-agent` | Assume that the agent isn't running and run the container without it |

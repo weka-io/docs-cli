@@ -10,4 +10,4 @@ Delete a Weka container from the machine this command is executed from (without 
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>--all</pre> | Remove all containers |
+| `--all` | Remove all containers |

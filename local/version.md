@@ -10,4 +10,4 @@ When run without arguments, lists the versions available on this machine. Subcom
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>-J, --json</pre> | Format output as JSON |
+| `-J, --json` | Format output as JSON |

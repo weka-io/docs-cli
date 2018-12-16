@@ -10,4 +10,4 @@ Set the current version. Containers must be stopped before setting the current v
 
 | Parameter | Description |
 | --------- | ----------- |
-| <pre>version</pre> | The version name to use |
+| `version` | The version name to use |
