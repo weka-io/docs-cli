@@ -16,10 +16,10 @@ Update cluster configuration
 
 | Parameter | Description |
 | --------- | ----------- |
-| `--cluster-name` | Cluster name. Can't be configured after registering the cluster in the cloud |
+| `--cluster-name` | Cluster name |
 | `--data-drives` | Number of RAID data drives |
 | `--parity-drives` | Number of RAID protection parity drives |
-| `--scrubber-bytes-per-sec` | Rate of RAID scrubbing in units per second, for example: 5 is 5b/s, 5MiB is 5MiB/s (must be positive) |
+| `--scrubber-bytes-per-sec` | Rate of RAID scrubbing in units per second (format: capacity in decimal or binary units: 11B, 1KB, 1MB, 1GB, 1TB, 1PB, 1EB, 1ZB, 1YB, 1KiB, 1MiB, 1GiB, 1TiB, 1PiB, 1EiB, 1ZiB, 1YiB) |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
 | `-J, --json` | Format output as JSON |

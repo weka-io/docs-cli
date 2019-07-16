@@ -1,16 +1,16 @@
 # Synopsis
 
-```weka smb user remove <user-id> [--HOST HOST] [--PORT PORT] [--json]```
+```weka user ldap reset [--HOST HOST] [--PORT PORT] [--force] [--json]```
 
 # Description
 
-Remove a user who can use samba
+Delete all LDAP settings from the cluster
 
 # Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
-| `user-id` | The id of the user to remove |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-f, --force` | Force this action without further confirmation |
 | `-J, --json` | Format output as JSON |

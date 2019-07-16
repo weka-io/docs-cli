@@ -2,7 +2,6 @@
 
 ## General
 
-* [Get Syntax Information](general/--help-syntax.md)
 * [Get CLI Build Number](general/--build.md)
 * [Get CLI Version](general/--version.md)
 * [Get CLI Version](general/-v.md)
@@ -18,6 +17,7 @@
   * [Create Cluster](cluster/general/cluster-create.md)
   * [Configure Cluster](cluster/general/cluster-update.md)
   * [List Nodes](cluster/general/cluster-nodes.md)
+  * [List Buckets](cluster/general/cluster-buckets.md)
   * [Start IO Service](cluster/general/cluster-start-io.md)
   * [Stop IO Service](cluster/general/cluster-stop-io.md)
 * [Hosts](cluster/README.md)
@@ -25,12 +25,12 @@
   * [Set Hot Spares](cluster/hosts/cluster-hot-spare.md)
   * [List Hosts](cluster/hosts/cluster-host.md)
   * [Show Host Hardware](cluster/hosts/cluster-host-info-hw.md)
-  * [Show Hardware Information](cluster/hosts/cluster-host-info-config.md)
   * [Set Host Failure Domain](cluster/hosts/cluster-host-failure-domain.md)
   * [Dedicate Hosts](cluster/hosts/cluster-host-dedicate.md)
-  * [Get/Set Host Bandwidth](cluster/hosts/cluster-host-bandwidth.md)
+  * [Set Host Bandwidth](cluster/hosts/cluster-host-bandwidth.md)
   * [Set Host Cores](cluster/hosts/cluster-host-cores.md)
   * [Set Host RAM](cluster/hosts/cluster-host-memory.md)
+  * [Set Host Auto Remove Timeout](cluster/hosts/cluster-host-auto-remove-timeout.md)
   * [Activate Hosts](cluster/hosts/cluster-host-activate.md)
   * [Deactivate Hosts](cluster/hosts/cluster-host-deactivate.md)
   * [Add Host](cluster/hosts/cluster-host-add.md)
@@ -48,6 +48,7 @@
   * [Remove Host NIC](cluster/net/cluster-host-net-remove.md)
   * [Show Default Data Network](cluster/net/cluster-default-net.md)
   * [Set Default Data Network](cluster/net/cluster-default-net-set.md)
+  * [Update Default Data Network](cluster/net/cluster-default-net-update.md)
   * [Reset Default Data Network](cluster/net/cluster-default-net-reset.md)
 
 ## Filesystems
@@ -75,6 +76,7 @@
   * [Add S3 Object Store](fs/tiering/fs-tier-s3-add.md)
   * [Update S3 Object Store](fs/tiering/fs-tier-s3-update.md)
   * [Delete S3 Object Store](fs/tiering/fs-tier-s3-delete.md)
+  * [List operations running on an object store](fs/tiering/fs-tier-ops.md)
 * [STOW](fs/README.md)
   * [Download Filesystem](fs/stow/fs-download.md)
   * [Upload Snapshot](fs/stow/fs-snapshot-upload.md)
@@ -93,8 +95,6 @@
 * [Permissions](nfs/README.md)
   * [List NFS Permissions](nfs/permissions/nfs-permission.md)
   * [Add Filesystem Permission](nfs/permissions/nfs-permission-add.md)
-  * [Add Filesystem Permission With Root Squashing](nfs/permissions/nfs-permission-add-root-squashing.md)
-  * [Update Filesystem Permission With Root Squashing](nfs/permissions/nfs-permission-update-root-squashing.md)
   * [Update Filesystem Permission](nfs/permissions/nfs-permission-update.md)
   * [Delete Filesystem Permission](nfs/permissions/nfs-permission-delete.md)
 * [Interface Groups](nfs/README.md)
@@ -116,10 +116,9 @@
 * [List Shares](smb/smb-share.md)
 * [Add Share](smb/smb-share-add.md)
 * [Remove Share](smb/smb-share-remove.md)
-* [Change Share Owner](smb/smb-share-chown.md)
-* [List Users](smb/smb-user.md)
-* [Add User](smb/smb-user-add.md)
-* [Remove User](smb/smb-user-remove.md)
+* [Show Domain Status](smb/smb-domain.md)
+* [Join Domain](smb/smb-domain-join.md)
+* [Leave Domain](smb/smb-domain-leave.md)
 
 ## Monitoring
 
@@ -132,22 +131,23 @@
   * [Cloud Status](monitor/events/cloud-status.md)
   * [Enable Cloud](monitor/events/cloud-enable.md)
   * [Disable Cloud](monitor/events/cloud-disable.md)
+  * [Get HTTP Proxy](monitor/events/cloud-proxy.md)
   * [Update Cloud Settings](monitor/events/cloud-update.md)
   * [Refresh Cloud Credentials](monitor/events/cloud-creds-refresh.md)
   * [Get Cloud Upload Rate](monitor/events/cloud-upload-rate.md)
   * [Set Cloud Upload Rate](monitor/events/cloud-upload-rate-set.md)
-  * [Get UI URL](monitor/events/cloud-ui.md)
-  * [Set UI URL](monitor/events/cloud-ui-set.md)
   * [List Events](monitor/events/events.md)
   * [List Local Events](monitor/events/events-list-local.md)
   * [List Event Types](monitor/events/events-list-types.md)
+  * [List Local Events](monitor/events/local-events.md)
 * [Statistics](monitor/README.md)
   * [Get Stats](monitor/stats/stats.md)
   * [Get Realtime Stats](monitor/stats/stats-realtime.md)
   * [List Stats Types](monitor/stats/stats-list-types.md)
 * [Diagnostics](monitor/README.md)
-  * [Collect Diagnostics](monitor/diags/diags---collect.md)
-  * [Upload Diagnostics](monitor/diags/diags---upload.md)
+  * [Collect Diagnostics](monitor/diags/diags-collect.md)
+  * [List Diagnostics](monitor/diags/diags-list.md)
+  * [Upload Diagnostics](monitor/diags/diags-upload.md)
 
 ## User Management
 
@@ -157,6 +157,13 @@
 * [Change Password](users/user-passwd.md)
 * [Create User](users/user-add.md)
 * [Delete User](users/user-delete.md)
+* [Show LDAP Configuration](users/user-ldap.md)
+* [Setup LDAP Server](users/user-ldap-setup.md)
+* [Setup an Active Directory Server](users/user-ldap-setup-ad.md)
+* [Update LDAP Server](users/user-ldap-update.md)
+* [Enable LDAP Authentication](users/user-ldap-enable.md)
+* [Disable LDAP Authentication](users/user-ldap-disable.md)
+* [Reset LDAP Authentication](users/user-ldap-reset.md)
 
 ## Licensing
 
@@ -179,6 +186,7 @@
 * [List Supported Specs](local/agent-supported-specs.md)
 * [Cleanup Images](local/agent-cleanup-images.md)
 * [Uninstall Agent](local/agent-uninstall.md)
+* [Collect Diagnostics](local/local-diags.md)
 * [List Containers](local/local-ps.md)
 * [Setup Container](local/local-setup.md)
 * [Delete Container](local/local-rm.md)
@@ -189,7 +197,6 @@
 * [Enable Monitoring](local/local-enable.md)
 * [Disable Monitoring](local/local-disable.md)
 * [Turn Monitoring On/Off](local/local-monitoring.md)
-* [Collect Diagnostics](local/local-diags.md)
 * [Run Command In Existing Container](local/local-exec.md)
 * [Run Command In New Container](local/local-run.md)
 * [List Supported Specs](local/version-supported-specs.md)

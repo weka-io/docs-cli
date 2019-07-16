@@ -1,6 +1,6 @@
 # Synopsis
 
-```weka cloud upload-rate set [--bytes-per-second <bps>] [--HOST HOST] [--PORT PORT] [--json]```
+```weka cloud upload-rate set [--bytes-per-second bps] [--HOST HOST] [--PORT PORT] [--json]```
 
 # Description
 
