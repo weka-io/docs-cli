@@ -1,6 +1,6 @@
 # Synopsis
 
-```weka cluster host net <host-id> [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN]```
+```weka cluster host net [--HOST HOST] [--PORT PORT] [--json] [--NO-HUMAN] [<host-ids>]...```
 
 # Description
 
@@ -10,7 +10,6 @@ List Weka dedicated networking devices in a host
 
 | Parameter | Description |
 | --------- | ----------- |
-| `host-id` | The host's id |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
 | `-J, --json` | Format output as JSON |

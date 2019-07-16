@@ -10,7 +10,7 @@ Chown a share to a specific user
 
 | Parameter | Description |
 | --------- | ----------- |
-| `share-id` | The id of the share to remove |
+| `share-id` | The id of the share to chown |
 | `--uid` | The UID to chown the share to |
 | `--gid` | The GID to chown the share to |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |

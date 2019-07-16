@@ -16,7 +16,7 @@ Update cluster configuration
 
 | Parameter | Description |
 | --------- | ----------- |
-| `--cluster-name` | Cluster name. Can't be configured after registering the cluster in the cloud |
+| `--cluster-name` | Cluster name |
 | `--data-drives` | Number of RAID data drives |
 | `--parity-drives` | Number of RAID protection parity drives |
 | `--scrubber-bytes-per-sec` | Rate of RAID scrubbing in units per second, for example: 5 is 5b/s, 5MiB is 5MiB/s (must be positive) |

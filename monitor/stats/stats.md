@@ -25,8 +25,8 @@ List all statistics that conform to the filter criteria
 
 | Parameter | Description |
 | --------- | ----------- |
-| `--start-time` | Time of the beginning of the report period. Refer to the 'Datetime Switches Syntax' section in 'weka --help-syntax' for help regarding datetime typed switches |
-| `--end-time` | Time of the beginning of the report period. Refer to the 'Datetime Switches Syntax' section in 'weka --help-syntax' for help regarding datetime typed switches |
+| `--start-time` | Query for stats starting at this time. Formatting examples: 5m, -5m, -1d, -1w, 1:00, 01:00, 18:30, 18:30:07, 2018-12-31 10:00, 2018/12/31 10:00, 2018-12-31T10:00, 9:15Z, 10:00+2:00 |
+| `--end-time` | Query for stats up to this time point. Formatting examples: 5m, -5m, -1d, -1w, 1:00, 01:00, 18:30, 18:30:07, 2018-12-31 10:00, 2018/12/31 10:00, 2018-12-31T10:00, 9:15Z, 10:00+2:00 |
 | `--interval` | Period (in seconds) of time of the report |
 | `--resolution-secs` | Length of each interval in the report period |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |

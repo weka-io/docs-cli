@@ -8,6 +8,7 @@
                  [--max-files max-files]
                  [--HOST HOST]
                  [--PORT PORT]
+                 [--skip-resource-validation]
                  [--json]
                  [--NO-HUMAN]```
 
@@ -27,5 +28,6 @@ Download a filesystem from object store
 | `--max-files` | Max files |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `--skip-resource-validation` | Skip verifying that the cluster has enough RAM and SSD resources allocated for the downloaded filesystem |
 | `-J, --json` | Format output as JSON |
 | `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |

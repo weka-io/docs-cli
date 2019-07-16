@@ -1,6 +1,6 @@
 # Synopsis
 
-```weka cluster drive add <host-id> <device-path> [--HOST HOST] [--PORT PORT] [--force] [--json] [--NO-HUMAN]```
+```weka cluster drive add <host-id> [--HOST HOST] [--PORT PORT] [--force] [--json] [--NO-HUMAN] [<device-paths>]...```
 
 # Description
 
@@ -11,7 +11,6 @@ Add the given drive
 | Parameter | Description |
 | --------- | ----------- |
 | `host-id` | The host the drive attached to (given by ids) |
-| `device-path` | The device path |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
 | `--force` |  |

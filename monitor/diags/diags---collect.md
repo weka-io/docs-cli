@@ -5,8 +5,7 @@
                      [--output output]
                      [--pack-to pack-to]
                      [--HOST HOST]
-                     [--PORT PORT]
-                     [--json]```
+                     [--PORT PORT]```
 
 # Description
 
@@ -22,4 +21,3 @@ Collect diags from all cluster hosts to a directory on the host running this com
 | `--pack-to` | Pack the collected tars into a single tarball under the given dir-path |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
-| `-J, --json` | Format output as JSON |

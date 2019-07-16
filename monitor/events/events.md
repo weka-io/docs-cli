@@ -24,8 +24,8 @@ List all events that conform to the filter criteria
 | Parameter | Description |
 | --------- | ----------- |
 | `-n, --num-results` | Maximal number of results |
-| `--start-time` | Include events occurred in this time point and later. Formatted like '2018-02-28T14:00:00' |
-| `--end-time` | Include events occurred not later then this time point. Formatted like '2018-02-28T14:00:00' |
+| `--start-time` | Include events occurred in this time point and later. Formatting examples: 5m, -5m, -1d, -1w, 1:00, 01:00, 18:30, 18:30:07, 2018-12-31 10:00, 2018/12/31 10:00, 2018-12-31T10:00, 9:15Z, 10:00+2:00 |
+| `--end-time` | Include events occurred not later then this time point. Formatting examples: 5m, -5m, -1d, -1w, 1:00, 01:00, 18:30, 18:30:07, 2018-12-31 10:00, 2018/12/31 10:00, 2018-12-31T10:00, 9:15Z, 10:00+2:00 |
 | `--severity` | Include event with equal and higher severity. severity can be INFO, WARNING, MINOR, MAJOR or CRITICAL |
 | `--sort-order` | Sort the results by ascending or descending time. Sort order can be asc or dsc |
 | `--fetch-order` | Fetch from end-time backwards or from start-time forward. Fetch order can be forward or backward |

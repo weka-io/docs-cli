@@ -12,6 +12,9 @@
                     [--bandwidth bandwidth]
                     [--errors-timeout errors-timeout]
                     [--prefetch-mib prefetch-mib]
+                    [--max-concurrent-downloads max-concurrent-downloads]
+                    [--max-concurrent-uploads max-concurrent-uploads]
+                    [--max-concurrent-removals max-concurrent-removals]
                     [--HOST HOST]
                     [--PORT PORT]
                     [--dry-run]
@@ -40,6 +43,9 @@ Create a new S3 object storage connection
 | `--bandwidth` | Bandwidth limitation per core (Mbps) |
 | `--errors-timeout` | If the OBS link is down for longer than this, all IO's that need data return with an error refer to the 'Duration Switches Syntax' section in 'weka --help-syntax' for help regarding duration typed switches |
 | `--prefetch-mib` | How many MiB of data to prefetch when reading a whole MiB on object store |
+| `--max-concurrent-downloads` | Maximum number of downloads we concurrently perform on this object store in a single IO node |
+| `--max-concurrent-uploads` | Maximum number of downloads we concurrently perform on this object store in a single IO node |
+| `--max-concurrent-removals` | Maximum number of downloads we concurrently perform on this object store in a single IO node |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
 | `--dry-run` | Only test the command, don't affect the system |
