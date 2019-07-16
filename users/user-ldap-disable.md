@@ -1,10 +1,10 @@
 # Synopsis
 
-```weka cloud ui [--HOST HOST] [--PORT PORT] [--json]```
+```weka user ldap disable [--HOST HOST] [--PORT PORT] [--force] [--json]```
 
 # Description
 
-Get the GUI service base URL
+Disable authentication through the configured LDAP server
 
 # Parameters
 
@@ -12,4 +12,5 @@ Get the GUI service base URL
 | --------- | ----------- |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `-f, --force` | Force this action without further confirmation |
 | `-J, --json` | Format output as JSON |

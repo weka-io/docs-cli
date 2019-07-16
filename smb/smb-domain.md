@@ -1,10 +1,10 @@
 # Synopsis
 
-```weka diags --upload [--HOST HOST] [--PORT PORT] [--json]```
+```weka smb domain [--HOST HOST] [--PORT PORT] [--json]```
 
 # Description
 
-Collect and upload diags from all cluster hosts to Weka's support cloud
+View info about the domain
 
 # Parameters
 

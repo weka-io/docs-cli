@@ -4,8 +4,8 @@
                   <region>
                   <access-key-id>
                   <secret-key>
-                  [--session-token <token>]
-                  [--bucket-prefix <prefix>]
+                  [--session-token token]
+                  [--bucket-prefix prefix]
                   [--proxy proxy]
                   [--bytes-per-second bytes-per-second]
                   [--HOST HOST]

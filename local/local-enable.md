@@ -10,4 +10,5 @@ Enable monitoring for the requested containers so they automaticlly start on mac
 
 | Parameter | Description |
 | --------- | ----------- |
+| `container` | The container to enable |
 | `-t, --type` | The container types to enable |

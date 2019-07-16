@@ -1,6 +1,6 @@
 # Synopsis
 
-```weka version prepare <container> [<version-name>]...```
+```weka version prepare <version-name> [<containers>]...```
 
 # Description
 
@@ -10,4 +10,5 @@ Prepare the version for use. This includes things like compiling the version dri
 
 | Parameter | Description |
 | --------- | ----------- |
-| `container` | The container to prepare |
+| `version-name` | The version to prepare |
+| `containers` | The containers to prepare the version for |

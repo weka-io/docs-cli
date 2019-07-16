@@ -1,10 +1,10 @@
 # Synopsis
 
-```weka smb user [--HOST HOST] [--PORT PORT] [--json]```
+```weka user ldap [--HOST HOST] [--PORT PORT] [--json]```
 
 # Description
 
-List all users exposed via samba
+Show current LDAP configuration used for authenticating users
 
 # Parameters
 
