@@ -1,16 +1,15 @@
 # Synopsis
 
-```weka fs tier s3 [--name name] [--HOST HOST] [--PORT PORT] [--json] [--raw-units] [--UTC]```
+```weka cluster buckets [--HOST HOST] [--PORT PORT] [--json] [--raw-units] [--UTC]```
 
 # Description
 
-List S3 object storage configuration and status
+List the cluster buckets, logical compute units used to divide the workload in the cluster
 
 # Parameters
 
 | Parameter | Description |
 | --------- | ----------- |
-| `--name` | Name of the Object Storage |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
 | `-J, --json` | Format output as JSON |

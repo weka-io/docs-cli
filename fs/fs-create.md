@@ -5,11 +5,12 @@
                <total-capacity>
                [--ssd-capacity ssd-capacity]
                [--max-files max-files]
-               [--filesystem-id filesystem-id]
                [--HOST HOST]
                [--PORT PORT]
+               [--skip-resource-validation]
                [--json]
-               [--NO-HUMAN]```
+               [--raw-units]
+               [--UTC]```
 
 # Description
 
@@ -21,11 +22,12 @@ Create a filesystem
 | --------- | ----------- |
 | `name` | Filesystem name |
 | `group-name` | Group name |
-| `total-capacity` | Total capacity [B&#124;KiB&#124;MiB&#124;GiB&#124;TiB&#124;PiB&#124;EiB&#124;ZiB&#124;YiB&#124;KB&#124;MB&#124;GB&#124;TB&#124;PB&#124;EB&#124;ZB&#124;YB] |
-| `--ssd-capacity` | SSD capacity [B&#124;KiB&#124;MiB&#124;GiB&#124;TiB&#124;PiB&#124;EiB&#124;ZiB&#124;YiB&#124;KB&#124;MB&#124;GB&#124;TB&#124;PB&#124;EB&#124;ZB&#124;YB] |
+| `total-capacity` | Total capacity (format: capacity in decimal or binary units: 11B, 1KB, 1MB, 1GB, 1TB, 1PB, 1EB, 1ZB, 1YB, 1KiB, 1MiB, 1GiB, 1TiB, 1PiB, 1EiB, 1ZiB, 1YiB) |
+| `--ssd-capacity` | SSD capacity (format: capacity in decimal or binary units: 11B, 1KB, 1MB, 1GB, 1TB, 1PB, 1EB, 1ZB, 1YB, 1KiB, 1MiB, 1GiB, 1TiB, 1PiB, 1EiB, 1ZiB, 1YiB) |
 | `--max-files` | Max files |
-| `--filesystem-id` | Filesystem ID |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
+| `--skip-resource-validation` | Skip verifying that the cluster has enough RAM and SSD resources allocated for the new filesystem |
 | `-J, --json` | Format output as JSON |
-| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
+| `-R, --raw-units` | Print values in raw units (bytes, seconds, etc.). When not set, sizes are printed in human-readable format, e.g 1KiB 234MiB 2GiB. |
+| `-U, --UTC` | Print times in UTC. When not set, times are converted to the local time of this host. |

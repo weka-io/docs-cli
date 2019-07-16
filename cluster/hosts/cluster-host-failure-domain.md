@@ -7,7 +7,8 @@
                                  [--auto]
                                  [--ha]
                                  [--json]
-                                 [--NO-HUMAN]```
+                                 [--raw-units]
+                                 [--UTC]```
 
 # Description
 
@@ -24,4 +25,5 @@ Set the host failure-domain
 | `--auto` | Set this host to be a failure-domain of its own |
 | `--ha` | Mark this host as highly available |
 | `-J, --json` | Format output as JSON |
-| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
+| `-R, --raw-units` | Print values in raw units (bytes, seconds, etc.). When not set, sizes are printed in human-readable format, e.g 1KiB 234MiB 2GiB. |
+| `-U, --UTC` | Print times in UTC. When not set, times are converted to the local time of this host. |

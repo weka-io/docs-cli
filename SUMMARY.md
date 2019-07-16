@@ -2,7 +2,6 @@
 
 ## General
 
-* [Get Syntax Information](general/--help-syntax.md)
 * [Get CLI Build Number](general/--build.md)
 * [Get CLI Version](general/--version.md)
 * [Get CLI Version](general/-v.md)
@@ -18,6 +17,7 @@
   * [Create Cluster](cluster/general/cluster-create.md)
   * [Configure Cluster](cluster/general/cluster-update.md)
   * [List Nodes](cluster/general/cluster-nodes.md)
+  * [List Buckets](cluster/general/cluster-buckets.md)
   * [Start IO Service](cluster/general/cluster-start-io.md)
   * [Stop IO Service](cluster/general/cluster-stop-io.md)
 * [Hosts](cluster/README.md)
@@ -28,7 +28,7 @@
   * [Show Hardware Information](cluster/hosts/cluster-host-info-config.md)
   * [Set Host Failure Domain](cluster/hosts/cluster-host-failure-domain.md)
   * [Dedicate Hosts](cluster/hosts/cluster-host-dedicate.md)
-  * [Get/Set Host Bandwidth](cluster/hosts/cluster-host-bandwidth.md)
+  * [Set Host Bandwidth](cluster/hosts/cluster-host-bandwidth.md)
   * [Set Host Cores](cluster/hosts/cluster-host-cores.md)
   * [Set Host RAM](cluster/hosts/cluster-host-memory.md)
   * [Activate Hosts](cluster/hosts/cluster-host-activate.md)
@@ -116,10 +116,9 @@
 * [List Shares](smb/smb-share.md)
 * [Add Share](smb/smb-share-add.md)
 * [Remove Share](smb/smb-share-remove.md)
-* [Change Share Owner](smb/smb-share-chown.md)
-* [List Users](smb/smb-user.md)
-* [Add User](smb/smb-user-add.md)
-* [Remove User](smb/smb-user-remove.md)
+* [Show Domain Status](smb/smb-domain.md)
+* [Join Domain](smb/smb-domain-join.md)
+* [Leave Domain](smb/smb-domain-leave.md)
 
 ## Monitoring
 

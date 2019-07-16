@@ -5,7 +5,8 @@
                                 [--PORT PORT]
                                 [--force]
                                 [--json]
-                                [--NO-HUMAN]
+                                [--raw-units]
+                                [--UTC]
                                 [<hostnames-or-ips>]...```
 
 # Description
@@ -21,4 +22,5 @@ Factory resets the hosts. NOTE! this can't be undone!
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
 | `--force` | When set, broute force reset |
 | `-J, --json` | Format output as JSON |
-| `-N, --NO-HUMAN` | Print sizes in Bytes. When not set, sizes are printed in human readable format, e.g 1KiB 234MiB 2GiB. |
+| `-R, --raw-units` | Print values in raw units (bytes, seconds, etc.). When not set, sizes are printed in human-readable format, e.g 1KiB 234MiB 2GiB. |
+| `-U, --UTC` | Print times in UTC. When not set, times are converted to the local time of this host. |

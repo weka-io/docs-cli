@@ -1,6 +1,6 @@
 # Synopsis
 
-```weka stats list-types [--HOST HOST] [--PORT PORT] [--show-internal] [--json]```
+```weka stats list-types [--HOST HOST] [--PORT PORT] [--show-internal] [--json] [<name-or-category>]...```
 
 # Description
 

@@ -20,7 +20,7 @@ Add a file system permission with root-squashing
 | --------- | ----------- |
 | `filesystem` | File system name |
 | `group` | Client group name |
-| `permission-type` | Permission type, either RO (read only) or RW (read write) |
+| `permission-type` | Permission type (format: 'ro' or 'rw') |
 | `anon-uid` | Anonymous UID to be used instead of root when root squashing is True |
 | `anon-gid` | Anonymous GID to be used instead of root when root squashing is True |
 | `--path` | path [default: /] |

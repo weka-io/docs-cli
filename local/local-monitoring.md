@@ -1,6 +1,6 @@
 # Synopsis
 
-```weka local monitoring <change> [--type type]... [<container>]...```
+```weka local monitoring <enabled> [--type type]... [<container>]...```
 
 # Description
 
@@ -10,5 +10,5 @@ Turn monitoring on/off for the given containers, or all containers is none are s
 
 | Parameter | Description |
 | --------- | ----------- |
-| `change` | Turn the monitoring on or off |
+| `enabled` | Whether monitoring should be on or off (format: 'on' or 'off') |
 | `-t, --type` | The container types to disable |

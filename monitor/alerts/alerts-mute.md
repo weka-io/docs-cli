@@ -11,7 +11,7 @@ Mute an alert-type. Muted alerts will not be prompted when listing active alerts
 | Parameter | Description |
 | --------- | ----------- |
 | `alert-type` | An alert-type to mute, use `weka alerts types` to list types |
-| `duration` | Dismissal duration in time-parts syntax: (<number> <unit>)* e.g. '180 days', '1 week' see the 'Duration' section in '--help-syntax' for further details |
+| `duration` | How long to mute this alert type for (format: 3s, 2h, 4m, 1d, 1d5h, 1w) |
 | `-H, --HOST` | Specify the host. Alternatively, use the WEKA_HOST env variable |
 | `-P, --PORT` | Specify the port. Alternatively, use the WEKA_PORT env variable |
 | `-J, --json` | Format output as JSON |
